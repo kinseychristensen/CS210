@@ -6,7 +6,7 @@ that report or search for a specific product. In completing this project, I was 
 programming as well as output formatting. I feel my code cleanly creates a functioning menu, handles the user input validation well, and creates a clear and 
 useful file for the user.  
 
-	There are a few improvements that I would make to enhance this code.  First, I would create an exception catch for the menu input loop.  I noticed in testing 
+There are a few improvements that I would make to enhance this code.  First, I would create an exception catch for the menu input loop.  I noticed in testing 
 that if I entered a multiple character response while in the menu that it would reprint the “this is an invalid menu selection” message for each character 
   before finally returning to the user input.  Second, I would create a parent class called “Reports” and move some of my code out of the ProduceReport class in 
   order to make it more readily scalable.  I did not do this within the scope of this project as I was very new to file input and output and thus uncertain how 
